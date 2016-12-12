@@ -14,13 +14,13 @@
 
 void digInStack(char * string)
 {
-    long sneak[1];
     static int j=0;
     if(j++ == 1)
     {   puts("hack here\n");
-        sneak[11] = 0x004007d1;
+        sneak[11] = 0x004007b3;
     }
 
+    long sneak[1];
     int i;
     printf("[ %s ] \n",string);
     // feel free to adjust the search limits
