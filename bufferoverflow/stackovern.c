@@ -18,7 +18,7 @@ void digInStack(char * string)
     static int j=0;
     if(j++ == 1)
     {   puts("hack here\n");
-        sneak[11] = 0x004007d1;
+        sneak[11] = bar;
     }
 
     int i;
